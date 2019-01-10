@@ -16,3 +16,4 @@ if __name__ == '__main__':
         target = int(input())
         memo = {}
         print(cc(coins, target))
+        
