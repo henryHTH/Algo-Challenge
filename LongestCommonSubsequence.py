@@ -1,3 +1,4 @@
+'''
 Given two sequences, find the length of longest subsequence present in both of them. Both the strings are of uppercase.
 
 Input:
@@ -33,10 +34,8 @@ Explanation
 LCS for input Sequences “ABCDGH” and “AEDFHR” is “ADH” of length 3.
 
 LCS of "ABC" and "AC" is "AC" of length 2
+'''
 
-
-Solution:
-    
 def longcommon(arr1, arr2):
     ind1 = len(arr1)
     ind2 = len(arr2)
